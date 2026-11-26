@@ -1,11 +1,7 @@
-<div align="center">
+# LOVIZA landing (loviza.click)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Standalone marketing site. Separate from the BrandPilot app repo.
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+- `npm install`, `npm run dev` (local), `npm run build` (outputs `dist/`)
+- Env: `VITE_APP_URL` (default `https://app.loviza.click`) is where every sign-in / plan button sends visitors.
+- Vercel: Framework Vite, build `npm run build`, output `dist`.
